@@ -5,9 +5,9 @@
  * Date: 15/11/2016
  * Time: 14.27
  */
-include('/themes/header.php');
-include('/themes/nav.php');
-include('/themes/sidebar.php');
+include('themes/header.php');
+include('themes/nav.php');
+include('themes/sidebar.php');
 //include ('konten.php');
 
 ?>
@@ -154,4 +154,4 @@ include('/themes/sidebar.php');
                 
 
 
-                <?php include('/themes/footer.php');?>
+<?php include('themes/footer.php');?>

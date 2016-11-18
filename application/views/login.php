@@ -6,7 +6,7 @@
     <script type="text/javascript" src="<?php echo base_url("assets/bootstrap/js/bootstrap.js"); ?>"></script>
     <script type="text/javascript" src="<?php echo base_url("assets/bootstrap/jquery-1.10.2.js"); ?>"></script>
     <link rel="stylesheet" href="<?php echo base_url("assets/bootstrap/loginstyle.css"); ?>"/>
-    <title>evoting: Login</title>
+    <title>SIMILA: Login</title>
 </head>
 <body>
 <div class="container">
@@ -73,14 +73,14 @@
 
         <?php echo form_open(current_url(), array('class' => 'form-signin')); ?>
         <h1><?php echo lang('login_heading'); ?></h1>
-        <p><?php echo lang('login_subheading'); ?></p>
+<!--        <p>--><?php //echo lang('login_subheading'); ?><!--</p>-->
 
         <div id="infoMessage"><?php echo $message; ?></div>
 
 
         <!-- <?php /*echo lang('login_identity_label', 'identity');*/ ?>
          --><?php /*echo form_input($identity);*/ ?>
-        <label for="identity">Email/Username:</label>
+        <label for="identity">Username:</label>
         <input name="identity" id="identity" type="text" class="form-control">
 
         <!-- <?php /*echo lang('login_password_label', 'password');*/ ?>
@@ -94,7 +94,7 @@
         <?php /*echo form_submit('submit', lang('login_submit_btn'));*/ ?>
         <input name="submit" value="Login" type="submit" class="btn btn-lg btn-primary btn-block">
 
-        <p><a href="forgot_password"><?php echo lang('login_forgot_password'); ?></a></p>
+<!--        <p><a href="forgot_password">--><?php //echo lang('login_forgot_password'); ?><!--</a></p>-->
         <?php echo form_close(); ?>
 
         <!-- </form>-->
